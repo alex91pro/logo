@@ -9,6 +9,7 @@
 <body>
   <div class="wrapper">
     
+  
   <header class="header">
     <div class="header__top top-header">
       <div class="top-header__content container">
@@ -32,7 +33,7 @@
           </div>
         </div>
         <div class="top-header__column">
-          <a href="" class="top-header__logo"><picture><source srcset="img/Logo.webp" type="image/webp"><img src="img/Logo.png" alt="logo"></picture></a>
+          <a href="" class="top-header__logo"><img src="img/Logo.png" alt="logo"></a>
         </div>
         <div class="top-header__column">
           <div class="top-header__contacts contacts-header">
@@ -42,8 +43,8 @@
                 <a href="tel:84434384348" class="contacts-header__phone">8-499-123-45-67</a>
               </div>
             </div>
-            <div class="contacts-header__column">
-              <div class="contacts-header__item">
+            <div class="contacts-header__column top-header__column-forcart">
+              <div class="contacts-header__item contacts-header__item-secondphone">
                 <div class="contacts-header__label">Бесплатно для </div>
                 <a href="tel:8443439999" class="contacts-header__phone">8-800-123-45-67</a>
               </div>
@@ -55,7 +56,7 @@
     <div class="header__bottom bottom-header">
       <div class="bottom-header__container container">
         <div class="bottom-header__column">
-          <ul class="bottom-header__actions actions-header">
+          <ul  data-da=".menu__body, 640, 0" class="bottom-header__actions actions-header">
             <li>
               <a href="" class="actions-header__login"><span>Вход</span></a>
             </li>
@@ -70,7 +71,7 @@
         <div class="bottom-header__column">
           <div class="bottom-header__info info-header">
             <div class="info-header__column">
-              <a href="" class="info-header__callback"><span>Обратный звонок</span></a>
+              <a data-da=".menu__body, 640, 3" href="" class="info-header__callback"><span>Обратный звонок</span></a>
             </div>
             <div class="info-header__column">
               <div class="info-header__schedule">
@@ -79,7 +80,7 @@
               </div>
             </div>
             <div class="info-header__column">
-              <a href="" class="info-header__cart">
+              <a data-da=".top-header__column-forcart, 640, 3" href="" class="info-header__cart">
                 <span>12</span>
               </a>
             </div>
@@ -88,7 +89,6 @@
       </div>
     </div>
   </header>
-
     <main class="page">
   
     
@@ -109,9 +109,9 @@
   <p>footer</p>
 </footer>
 
-  <!--<script src="js/script.min.js"></script>-->
-  <script src="js/jquery-3.5.1.min.js"></script>
+ <script src="/js/jquery-3.5.1.min.js"></script>
   <!-- 5-->
-  <script src="js/script.min.js"></script>
+  <script src="/js/script.min.js"></script>
+  <script src="/js/dynamicAdapt.js"></script>
 </body>
 </html>
